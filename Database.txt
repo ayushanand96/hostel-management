@@ -1,0 +1,17 @@
+create table student(
+regno int primary key,
+pass varchar(15) not null,
+hostel varchar(15),
+block char,
+room int,
+);
+
+create table hostel(
+regno int primary key,
+hostel varchar(15),
+block char,
+bed char,
+room int,
+type varchar(10),
+floor int
+);
