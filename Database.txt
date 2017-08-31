@@ -15,3 +15,5 @@ room int,
 type varchar(10),
 floor int
 );
+
+Add the hostel details and you are good to go...!
